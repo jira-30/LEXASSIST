@@ -28,5 +28,5 @@ As above mentioned scenarios, legal documents such as contracts, policies and am
 + **Summarizes** reproduces the whole document into simple terms covering its whole information, obligations, risk and options to use as per consumer's needs.
 
 ## Architecture
-![LexAssist Architecture](LEXASSIST/https://github.com/jira-30)
+![LexAssist Architecture](LEXASSIST/Screenshot2026-09-07190332.png)
 
