@@ -28,5 +28,7 @@ As above mentioned scenarios, legal documents such as contracts, policies and am
 + **Summarizes** reproduces the whole document into simple terms covering its whole information, obligations, risk and options to use as per consumer's needs.
 
 ## Architecture
+
+#### PHASE 1 
 ![LexAssist Architecture](LexAssist_Phase1.png)
 
