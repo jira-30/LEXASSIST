@@ -34,3 +34,5 @@ As above mentioned scenarios, legal documents such as contracts, policies and am
 
 ### PHASE 2
 ![LexAssist Architecture]()
+
+
