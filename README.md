@@ -45,4 +45,62 @@ As above mentioned scenarios, legal documents such as contracts, policies and am
 |VectorDB| ChromaDB|
 |Backend & Frontend| Python|
 
+## Project Structure
+
+```
+LexAssist/
+├── app/
+│   ├── agents/
+│   │   ├── __init__.py
+│   │   ├── classifier_agent.py
+│   │   ├── retriever_agent.py
+│   │   ├── risk_agent.py
+│   │   ├── summarizer_agent.py
+│   │   └── supervisor.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   └── routes.py
+│   ├── graph/
+│   │   ├── __init__.py
+│   │   ├── legal_graph.py
+│   │   └── state.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── schemas.py
+│   ├── tools/
+│   │   ├── __init__.py
+│   │   ├── csv_loader.py
+│   │   ├── legal_tools.py
+│   │   └── vector_store.py
+│   ├── __init__.py
+│   ├── config.py
+│   └── main.py
+├── scripts/
+│   └── ingest.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_agents.py
+│   ├── test_api.py
+│   ├── test_csv_loader.py
+│   ├── test_graph.py
+│   └── test_vector_store.py
+├── .env.example
+├── .gitignore
+├── DSC550_FinalPresentation_ShruthiRavi.pptx
+├── DSC550_MasterProjectReport_ShruthiRavi.pdf
+├── LexAssist_Classifier1.png
+├── LexAssist_Classifier2.png
+├── LexAssist_Dashboard.png
+├── LexAssist_DocSearch.png
+├── LexAssist_LegalResearch1.png
+├── LexAssist_LegalResearch2.png
+├── LexAssist_Phase1.png
+├── LexAssist_Phase2.png
+├── LexAssist_RiskAnalyzer1.png
+├── LexAssist_RiskAnalyzer2.png
+├── LexAssist_Webpage.png
+├── README.md
+├── requirements.txt
+└── streamlit_app.py
+```
 
