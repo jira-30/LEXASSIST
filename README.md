@@ -30,9 +30,19 @@ As above mentioned scenarios, legal documents such as contracts, policies and am
 ## Architecture
 
 ### PHASE 1 
+
 ![LexAssist Architecture](LexAssist_Phase1.png)
 
 ### PHASE 2
 ![LexAssist Architecture](LexAssist_Phase2.png)
+
+## Tech Stack
+| Category | Tools |
+|---|---|
+|Orchestration| LangGraph(supervisor through multi agent system)|
+|Agents| Supervisor, Classifier, Retriever, Risk Analyzer, Summarizer|
+|LLM| Claude Haiku API |
+|VectorDB| ChromaDB|
+|Backend & Frontend| Python|
 
 
