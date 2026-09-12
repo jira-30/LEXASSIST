@@ -144,3 +144,19 @@ Run `uvicorn app.main:app --reload --port 8000
 
 #### f) Document Search Engine -> easy search engine for the user to check or look through datasets
 ![LexAssist Output](LexAssist_DocSearch.png)
+
+## Limitations
+
++ No user authentication or role-based access such as single-user, local only
++ No persistent query history or session storage
++ Lower classification accuracy on novel or jurisdiction-specific clauses
++ Dependent on Claude API that are tied to its availability, latency, and cost
++ Only plain text input, no native PDF/DOCX ingestion
+
+## Future Work
+
++ PDF/DOCX ingestion with parsing for multi-page docs and tables
++ User authentication and session management (JWT-based)
++ Fine-tuned transformer classifier (e.g. BERT) on the 395-category corpus
++ Clause comparison across contracts/domains
++ Jurisdiction-based filtering for region-specific legal context
