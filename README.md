@@ -121,15 +121,26 @@ Run `uvicorn app.main:app --reload --port 8000
 ```
 
 ## Outputs
-### a) Webpage
-#### Contributes the overall sections of clauses indexed, number of domains in datasets, active agents, and a dataset browser. 
+#### a) Webpage -> Contributes the overall sections of clauses indexed, number of domains in datasets, active agents, and a dataset browser. 
 ![LexAssist Output](LexAssist_Webpage.png)
 
-### b) 
-#### A sample clause / a human query is given to show the actual working of this agent, which provides the overview of the summary along with its key points, risk identification, recommended actions, clause type, and similar references to other domains and clauses. 
+#### b) Legal Research -> A sample clause / a human query is given to show the actual working of this agent, which provides the overview of the summary along with its key points, risk identification, recommended actions, clause type, and similar references to other domains and clauses. 
 ![LexAssist Output](LexAssist_LegalResearch1.png)
 
 ![LexAssist Output](LexAssist_LegalResearch2.png)
 
-#### c) A sample clause / a human query is given to show the actual working of this agent; this whole section comprises the classification of a given clause along with recommendations for attorneys, compliance teams, executives, and consumers through sample datasets, example use cases, and questions.
-![LexAssist Output](LexAssist_LegalResearch2.png)
+#### c) Legal Classifier -> A sample clause / a human query is given to show the actual working of this agent; this whole section comprises the classification of a given clause along with recommendations for attorneys, compliance teams, executives, and consumers through sample datasets, example use cases, and questions.
+![LexAssist Output](LexAssist_Classifier1.png)
+
+![LexAssist Output](LexAssist_Classifier2.png)
+
+#### d) Risk Analyzer -> This module performs a comprehensive evaluation of overall risk by identifying contributing factors, highlighting flagged phrases, and generating actionable recommendations to support informed decision-making. 
+![LexAssist Output](LexAssist_RiskAnalyzer1.png)
+
+![LexAssist Output](LexAssist_RiskAnalyzer2.png)
+
+#### e) Dashboard -> Shows the overall statistics of all the agents
+![LexAssist Output](LexAssist_Dashboard.png)
+
+#### f) Document Search Engine -> easy search engine for the user to check or look through datasets
+![LexAssist Output](LexAssist_DocSearch.png)
