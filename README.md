@@ -103,4 +103,21 @@ LexAssist/
 ├── requirements.txt
 └── streamlit_app.py
 ```
+## Setup
+
+## Setup
+
+```sh
+# Clone the repository
+git clone <YOUR_GIT_URL>
+
+# make necessary installations
+pip install -r requirements.txt
+
+# Running python scripts
+Run `python scripts/ingest.py`
+
+# Start the development server
+Run `uvicorn app.main:app --reload --port 8000
+```
 
