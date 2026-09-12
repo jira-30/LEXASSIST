@@ -103,7 +103,6 @@ LexAssist/
 ├── requirements.txt
 └── streamlit_app.py
 ```
-## Setup
 
 ## Setup
 
@@ -121,3 +120,6 @@ Run `python scripts/ingest.py`
 Run `uvicorn app.main:app --reload --port 8000
 ```
 
+## Outputs
+#### a) Contributes the overall sections of clauses indexed, number of domains in datasets, active agents, and a dataset browser. 
+![LexAssist Output](LexAssist_Webpage.png)
